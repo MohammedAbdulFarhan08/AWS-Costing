@@ -1,0 +1,8 @@
+Service,Unit Cost,Quantity,Total Cost
+EC2 m5.Xlarge (EKS),140.16,2,280.32
+EC2 t3.medium (EKS),30.36,5,151.8
+RDS db.t3.medium,52.56,1,52.56
+RDS db.m5.Xlarge,259.88,1,259.88
+DocumentDB db.t3.medium,52.56,2,105.12
+Ingress Load Balancer,17.0,6,102.0
+IAM Roles & IPs,10.0,1,10.0

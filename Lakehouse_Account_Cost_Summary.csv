@@ -1,0 +1,6 @@
+Service,Unit Cost,Quantity,Total Cost
+RDS db.r5.medium,365,2,730
+RDS db.m5.Xlarge,259.88,1,259.88
+S3 Storage (50GB),0.023,1,0.023
+,,,
+IAM Roles & IPs,10,1,10
