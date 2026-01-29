@@ -1,0 +1,142 @@
+AWS Costing Review - Platform & Lakehouse Accounts
+Platform Account
+
+EC2 Instances
+
+m5.Xlarge (EKS):
+
+Monthly Cost per Instance: $140.16
+
+Number of Instances: 2
+
+Total Cost: $280.32
+
+t3.medium (EKS):
+
+Monthly Cost per Instance: $30.36
+
+Number of Instances: 5
+
+Total Cost: $151.80
+
+RDS Instances
+
+db.t3.medium:
+
+Monthly Cost per Instance: $52.56
+
+Number of Instances: 1
+
+Total Cost: $52.56
+
+db.m5.Xlarge:
+
+Monthly Cost per Instance: $259.88
+
+Number of Instances: 1
+
+Total Cost: $259.88
+
+DocumentDB Instances
+
+db.t3.medium:
+
+Monthly Cost per Instance: $52.56
+
+Number of Instances: 2
+
+Total Cost: $105.12
+
+IAM Roles and IPs (Estimated)
+
+While IAM roles and IP costs are typically low or free, we’ll consider an overhead of $10.00/month for the maintenance and potential additional costs associated with roles, policies, and static IPs (considering regional services and administrative overhead).
+
+Estimated Total Cost for IAM & IPs: $10.00
+
+Lakehouse Account
+
+EC2 Instances
+
+m5.Xlarge:
+
+Monthly Cost per Instance: $140.16
+
+Number of Instances: 1
+
+Total Cost: $140.16
+
+t3.medium:
+
+Monthly Cost per Instance: $30.36
+
+Number of Instances: 1
+
+Total Cost: $30.36
+
+RDS Instances
+
+db.r5.medium:
+
+Monthly Cost per Instance: $365.00
+
+Number of Instances: 2
+
+Total Cost: $730.00
+
+db.m5.Xlarge:
+
+Monthly Cost per Instance: $259.88
+
+Number of Instances: 1
+
+Total Cost: $259.88
+
+S3 Storage
+
+Storage Usage: 50GB
+
+Monthly Cost per GB: $0.023
+
+Total Storage Cost: $1.15 (50GB * $0.023)
+
+IAM Roles and IPs (Estimated)
+
+Similar to the Platform Account, IAM roles and IPs in this account will incur an overhead of $10.00/month.
+
+Estimated Total Cost for IAM & IPs: $10.00
+
+Total Monthly Estimated Costs
+
+Platform Account:
+
+EC2: $280.32 + $151.80 = $432.12
+
+RDS: $52.56 + $259.88 = $312.44
+
+DocumentDB: $105.12
+
+IAM & IPs: $10.00
+
+Total: $859.68
+
+Lakehouse Account:
+
+EC2: $140.16 + $30.36 = $170.52
+
+RDS: $730.00 + $259.88 = $989.88
+
+S3 Storage: $1.15
+
+IAM & IPs: $10.00
+
+Total: $1,171.55
+
+Conclusion and Recommendations
+
+Based on the provided service configurations, the monthly estimated costs for both accounts are as follows:
+
+Platform Account: $859.68
+
+Lakehouse Account: $1,171.55
+
+These calculations consider only the listed services and provide a high-level estimate. Variations in actual usage, such as network traffic, backup storage, and data transfer costs, could influence these estimates. Additionally, for precise billing and cost management, leveraging AWS Cost Explorer and AWS Budgets for monitoring and optimizing these costs is recommended.
