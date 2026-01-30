@@ -1,0 +1,55 @@
+Key Responsibilities
+
+Design, implement, and maintain scalable, secure, and highly available AWS infrastructure
+
+Build and manage Infrastructure as Code (IaC) using Terraform, following modular and reusable design patterns
+
+Deploy, operate, and troubleshoot Kubernetes (EKS) clusters and containerized workloads
+
+Create and maintain CI/CD pipelines using GitLab, enabling automated build, test, and deployment workflows
+
+Containerize applications using Docker and support microservices-based architectures
+
+Administer and troubleshoot cloud networking, load balancing, storage, and security controls
+
+Monitor system health, performance, and costs using logging, metrics, and alerting tools
+
+Perform root cause analysis and implement long-term fixes to improve reliability and resilience
+
+Collaborate with application developers, architects, and security teams to ensure best practices
+
+Continuously improve automation, tooling, and operational processes
+
+Ensure systems meet enterprise security, compliance, and governance requirements
+
+
+
+Required Qualifications
+
+8–12+ years of experience in DevOps, Cloud Engineering, or Infrastructure Engineering roles
+
+Strong hands-on experience with:
+
+AWS (EC2, VPC, IAM, EKS, ELB/ALB, S3, RDS, CloudWatch)
+
+Kubernetes (EKS) – cluster operations, deployments, scaling, and troubleshooting
+
+Terraform – modules, state management, and environment promotion
+
+Docker – containerization and image optimization
+
+GitLab – repositories, CI/CD pipelines, runners, and merge request workflows
+
+Proficiency in Linux/Unix systems and shell scripting (Bash)
+
+Experience with CI/CD, automation, and DevOps best practices
+
+Strong understanding of cloud networking, security, and access control
+
+Experience with monitoring and logging tools (CloudWatch, Prometheus, Grafana, ELK, or similar)
+
+Solid understanding of high availability, fault tolerance, and scalability
+
+Strong problem-solving and troubleshooting skills
+
+Excellent communication skills and ability to work across cross-functional teams
